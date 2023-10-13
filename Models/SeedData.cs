@@ -28,7 +28,8 @@ namespace Clockopedia.Models
                         Category = "Wall Clock",
                         Color="Black",
                         Timeformat="Analog",
-                        Price = 34.99M
+                        Price = 34.99M,
+                        Warrenty="Yes"
                     },
 
                      new Clock
@@ -38,7 +39,8 @@ namespace Clockopedia.Models
                          Category = "Ship's Bell Clock",
                          Color = "Brass",
                          Timeformat = "Analog",
-                         Price = 199.99M
+                         Price = 199.99M,
+                         Warrenty="No"
                      },
 
                      new Clock
@@ -48,7 +50,8 @@ namespace Clockopedia.Models
                          Category = "Sport Wall Clock",
                          Color = "White",
                          Timeformat = "Analog",
-                         Price = 29.99M
+                         Price = 29.99M,
+                         Warrenty="Yes"
                      },
 
                      new Clock
@@ -58,7 +61,8 @@ namespace Clockopedia.Models
                          Category = "Flip Clock",
                          Color = "Ivory",
                          Timeformat = "Digital Flip",
-                         Price = 39.99M
+                         Price = 39.99M,
+                         Warrenty = "Yes"
                      },
                       new Clock
                       {
@@ -67,7 +71,8 @@ namespace Clockopedia.Models
                           Category = "Garden Sundial",
                           Color = "Bronze",
                           Timeformat = "Solar",
-                          Price = 59.99M
+                          Price = 59.99M,
+                          Warrenty = "No"
                       },
                        new Clock
                        {
@@ -76,7 +81,8 @@ namespace Clockopedia.Models
                            Category = "Digital Desk Clock",
                            Color = "Silver",
                            Timeformat = "Digital",
-                           Price = 24.99M
+                           Price = 24.99M,
+                           Warrenty = "Yes"
                        },
                         new Clock
                         {
@@ -85,7 +91,8 @@ namespace Clockopedia.Models
                             Category = "Mantel Clock",
                             Color = "Mahogany",
                             Timeformat = "Analog",
-                            Price = 149.99M
+                            Price = 149.99M,
+                            Warrenty = "Yes"
                         },
                          new Clock
                          {
@@ -94,7 +101,8 @@ namespace Clockopedia.Models
                              Category = "Children's Wall Clock",
                              Color = "Multi-color",
                              Timeformat = "Analog",
-                             Price = 19.99M
+                             Price = 19.99M,
+                             Warrenty = "No"
                          },
 
                         new Clock
@@ -104,8 +112,9 @@ namespace Clockopedia.Models
                              Category = "Smart Clock",
                             Color = "White",
                             Timeformat = "Digital",
-                            Price = 79.99M
-                           },
+                            Price = 79.99M,
+                            Warrenty = "No"
+                        },
                            new Clock
                            {
                                Name = "Black Forest Melody",
@@ -113,7 +122,8 @@ namespace Clockopedia.Models
                                Category = "Cuckoo Clock",
                                Color = "Dark Wood",
                                Timeformat = "Analog",
-                               Price = 299.99M
+                               Price = 299.99M,
+                               Warrenty = "Yes"
                            }
                 );
                 context.SaveChanges();
