@@ -22,6 +22,7 @@ namespace Clockopedia.Controllers
         {
             return View();
         }
+        //Step 2: Adding the link
         public IActionResult About()
         {
             return View();
